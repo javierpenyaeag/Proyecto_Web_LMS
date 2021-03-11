@@ -1,0 +1,108 @@
+body, ul, nav {
+    margin: unset;
+    padding: unset;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section{
+
+    position: relative;
+    width: 100%;
+    border: 1px solid #000000;
+
+}
+
+
+#art1, #art2, #art4, #art3{
+
+    width: 40%;
+    float: left;
+    padding: 16px;
+    border: 1px solid #000000;
+    
+}
+
+#art3{
+
+    background: url("./assert/descarga.jpg") repeat-x;    
+    
+}
+
+video{
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    /* width: 20%; */
+    float: left;
+    list-style-type: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.menu {
+    /* width: 20%; */
+    list-style-type: none;
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: lightsalmon;
+}
+
+.clasificacion { 
+    caption-side: bottom;
+    width: 600px;
+    border: 1px solid #000; 
+    border-collapse: collapse ;
+}
+
+th, td{
+    border:1px solid #000;    
+}
+
+table tr:hover {
+     background: #FFFF66;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    background-color: lightgrey;
+    height: 34px;
+}
+/* footer{
+    height: 10%;
+    width: 100%;
+    border: 1px solid #000000;
+} */
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.center {
+    margin-left: 10%;
+}
+
+.border {
+    border: 1px solid #000; 
+}
