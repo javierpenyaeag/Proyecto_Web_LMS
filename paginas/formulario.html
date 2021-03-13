@@ -1,5 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <head>
+        
+        <meta charset="UTF-8">
+
+        <title>CopaDelRey</title>
+
+        <link rel="stylesheet" href="../style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <img class="imgheader1" src="../assert/e1.png" alt="img_escudo">
+            <h2 class="hhead">Diario Granadinista</h2>
+            <img class="imgheader2" src="../assert/el1.png" alt="img2">
+
+
+        </header>
+
+        <main>
+
+            <section>
+                
+                <nav class="menu">
+                    <ul>
+                        <li><a href="../index.html" >Diario Granadinista</a></li>
+                        <li><a href="../paginas/datosClub.html">Datos del club</a></li>
+                        <li><a href="../paginas/clasificacion.html"> Clasificacion </a></li>
+                        <li class="seleccionada"><a href="../paginas/formulario.html"> Formulario de inscripción </a></li>
+                        <li><a href="../paginas/europa.html">Competicion Europea </a></li>
+                        <li><a href="../paginas/liga.html"> Ultimo partido de Liga </a></li>
+                        <li><a href="../paginas/copa.html"> Copa del Rey </a></li>
+                    </ul>
+                </nav>
+
+            </section>
+            
+            <section id="sect1" class="padding-top">
+                <article id="artic">
+                    <img src="../assert/662x372a_27094615190902_estadio_05 (1).jpg" alt="image" class="centrado_img">
+                    <h2>RELLENA NUESTRO FORMULARIO: </h2>
+                    <div class="formulario">
+                        <form action="#" method="POST">
+
+                            <legend> <strong> <em> DATOS PERSONALES </em></strong></legend>
+                            <label for="primer_apellido" class="formulario1">Primer Apellido</label>
+                            <input type="text" name="primer_apellido" id="primer_apellido" placeholder="Primer_apellido/">
+                            <label for="segundo_apellido" class="formulario1">Segundo Apellido</label>
+                            <input type="text" name="segundo_apellido" id="segundo_apellido" placeholder="Segundo_apellido"/>
+                            <label for="nombre" class="formulario1">Nombre</label >
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre"/>
+                            <label for="dni" class="formulario1">DNI/pasaporte</label >
+                            <input type="text" name="dni" size="10" maxlength="9" placeholder="11111111A" id="dni"/>
+                            <label for="email" class="formulario1">Correo electronico</label>
+                            <input type="email" id="email" pattern=".+@globex.com" size="30" placeholder="aaaa@aaaa.com" required>
+                            <label for="provincia" class="formulario1">Provincia</label>
+                            <select required name="provincia" id="provincia">
+                                <option value="">Elige Provincia</option>
+                                <option value="Álava/Araba">Álava/Araba</option>
+                                <option value="Albacete">Albacete</option>
+                                <option value="Alicante">Alicante</option>
+                                <option value="Almería">Almería</option>
+                                <option value="Asturias">Asturias</option>
+                                <option value="Ávila">Ávila</option>
+                                <option value="Badajoz">Badajoz</option>
+                                <option value="Baleares">Baleares</option>
+                                <option value="Barcelona">Barcelona</option>
+                                <option value="Burgos">Burgos</option>
+                                <option value="Cáceres">Cáceres</option>
+                                <option value="Cádiz">Cádiz</option>
+                                <option value="Cantabria">Cantabria</option>
+                                <option value="Castellón">Castellón</option>
+                                <option value="Ceuta">Ceuta</option>
+                                <option value="Ciudad Real">Ciudad Real</option>
+                                <option value="Córdoba">Córdoba</option>
+                                <option value="Cuenca">Cuenca</option>
+                                <option value="Gerona/Girona">Gerona/Girona</option>
+                                <option value="Granada">Granada</option>
+                                <option value="Guadalajara">Guadalajara</option>
+                                <option value="Guipúzcoa/Gipuzkoa">Guipúzcoa/Gipuzkoa</option>
+                                <option value="Huelva">Huelva</option>
+                                <option value="Huesca">Huesca</option>
+                                <option value="Jaén">Jaén</option>
+                                <option value="La Coruña/A Coruña">La Coruña/A Coruña</option>
+                                <option value="La Rioja">La Rioja</option>
+                                <option value="Las Palmas">Las Palmas</option>
+                                <option value="León">León</option>
+                                <option value="Lérida/Lleida">Lérida/Lleida</option>
+                                <option value="Lugo">Lugo</option>
+                                <option value="Madrid">Madrid</option>
+                                <option value="Málaga">Málaga</option>
+                                <option value="Melilla">Melilla</option>
+                                <option value="Murcia">Murcia</option>
+                                <option value="Navarra">Navarra</option>
+                                <option value="Orense/Ourense">Orense/Ourense</option>
+                                <option value="Palencia">Palencia</option>
+                                <option value="Pontevedra">Pontevedra</option>
+                                <option value="Salamanca">Salamanca</option>
+                                <option value="Segovia">Segovia</option>
+                                <option value="Sevilla">Sevilla</option>
+                                <option value="Soria">Soria</option>
+                                <option value="Tarragona">Tarragona</option>
+                                <option value="Tenerife">Tenerife</option>
+                                <option value="Teruel">Teruel</option>
+                                <option value="Toledo">Toledo</option>
+                                <option value="Valencia">Valencia</option>
+                                <option value="Valladolid">Valladolid</option>
+                                <option value="Vizcaya/Bizkaia">Vizcaya/Bizkaia</option>
+                                <option value="Zamora">Zamora</option>
+                                <option value="Zaragoza">Zaragoza</option>
+                              </select>
+                            <label for="observaciones" class="formulario1"> <strong> Observaciones</strong></label>
+                            <textarea name="observaciones" id="Observaciones" cols="30" rows="10" placeholder="Rellenar este campo en caso de quere indicar alguna observacion"></textarea>
+                            <input type="submit" class="formulario1">
+                            <input type="reset" value="Borrar datos del formulario" />
+                        </form>
+
+                    </div>
+
+                </article>
+
+                <article class="publicidad">
+
+                    <a href="https://comunicacion.movistarplus.es/email/movistar-laliga-el-lugar-elegido-por-los-expertos-en-futbol-para-la-temporada-19-20/"><img id="anuncio" src="../assert/publi.png" alt="Anuncio"></a>
+
+                </article>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="cfoot1">
+                <p>Información ofrecida por el grupo GranadaDeportiva</p>
+                
+                <p>Contacta con nosotros rellenando el formulario de inscripción o a través del correo electronico @granadasport.info.rrhh.es</p>
+                
+                <p>Derechos de imagen protegidos por la empresa propietaria </p>
+            </div>
+            <div class="cfoot2">
+                <a href="https://www.winamax.es/apuestas-deportivas-promociones"><img id="anuncio2" src="../assert/header3.jfif" alt="Anuncio"></a>
+            </div>
+        </footer>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <html lang="en">
 <head>
     
     <meta charset="UTF-8">
@@ -62,4 +238,4 @@
 
 
 
-    </footer>
+    </footer> -->

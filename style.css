@@ -3,53 +3,184 @@ body, ul, nav {
     padding: unset;
     width: 100%;
     overflow-x: hidden;
+    
 }
 
 * {
     box-sizing: border-box;
     overflow-x: hidden;
+    
+}
+
+.padding-top {
+    padding-top: 60px;
+}
+
+.margin-top-unset {
+    margin-top: unset;
+}
+
+main{
+
+    padding-bottom: 60px;
+    background-color: #b3b3b3;
+
+}
+
+header{
+    position: relative;
+    height: 230px;
+    width: 100%;
+    background-color: #000000;
+}
+
+header img {
+    height: 225px;
+}
+
+header h2 {
+    margin-top: 101.5px;
+}
+
+footer{
+
+    position: relative;
+    height: 213px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    
+
 }
 
 section{
 
     position: relative;
     width: 100%;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
+    /* background-color: #b3b3b3; */
+    float: left;
 
 }
 
+.cfoot1{
+
+    margin-left: 270px;
+    float: left;
+    margin-top: 40px;
+    background-color: #000000;
+
+}
+
+.cfoot2{
+
+    margin-left: 400px;
+    float: left;
+
+}
 
 #art1, #art2, #art4, #art3{
 
     width: 40%;
     float: left;
     padding: 16px;
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     
+}
+
+#artic{
+    width: 40%;
+    margin-left: 550px;
+    /* border: 1px solid #000000; */
+    float: left;
 }
 
 #art3{
 
-    background: url("./assert/descarga.jpg") repeat-x;    
+    background-color: #ffffff;    
     
+}
+.publicidad{
+
+    float: left;
+    margin-top: 700px;
+    margin-left: 100px;
+
+}
+
+.principal{
+    padding-left: 80px;
+    
+}
+
+.imgheader1{
+    float: left;
+    margin-left: 330px;
+    
+}
+
+.imgheader2{
+    top: 0px;
+    float: left;
+    margin-left:330px;
+}
+
+.formulario{
+
+    margin-top: 100px;
+}
+
+.formulario1{
+
+    display: block;
+    margin-top: 30px;
+
+}
+.datos li{
+
+    background-color: #b3b3b3;
+}
+
+
+#img1{
+        
+    width: 50%;
+    height: 100%;
+}
+
+.centrado_img{
+
+    margin-left: 50px;
+
 }
 
 video{
     width: 60%;
     height: 60%;
-    padding: 20px;
 }
 
 ul {
     width: 100%;
 }
 
-li {
+h2 {
+
+    margin-top: 75px;
+
+}
+
+nav li {
     /* width: 20%; */
     float: left;
     list-style-type: none;
-    padding: 8px 16px;
+    padding: 8px 3px;
     cursor: pointer;
+    margin-left: 120px;
+    background-color: #d13838;
+}
+
+nav li a {
+    color: white;
 }
 
 .menu {
@@ -57,17 +188,21 @@ li {
     list-style-type: none;
     padding: 0 16px;
     cursor: pointer;
+    background-color: #d13838;
+    height: 34px;
 }
 
-li:hover {
+
+nav li:hover {
     background-color: lightsalmon;
 }
 
 .clasificacion { 
     caption-side: bottom;
     width: 600px;
-    border: 1px solid #000; 
+    border: 1px solid#f80505; 
     border-collapse: collapse ;
+    margin-left: 10%;
 }
 
 th, td{
@@ -78,15 +213,20 @@ table tr:hover {
      background: #FFFF66;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.hhead{
+    float: left;
+    color: white;
+    margin-left:330px;
+    margin-right: auto;
+    background-color: #000000;
 }
 
-.menu {
-    background-color: lightgrey;
-    height: 34px;
+
+a {
+    text-decoration: none;
+    color: #115baf;
 }
+
 /* footer{
     height: 10%;
     width: 100%;
@@ -105,4 +245,20 @@ a {
 
 .border {
     border: 1px solid #000; 
+}
+
+.seleccionada {
+    background-color: lightsalmon;
+}
+
+.descenso {
+    background-color: #cf6868;
+}
+
+.europa {
+    background-color: #68cf8a;
+}
+
+.uefa {
+    background-color: #68a9cf;
 }
